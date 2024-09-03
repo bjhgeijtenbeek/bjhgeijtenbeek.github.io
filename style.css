@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    /* background-image: url("fotos/black-gray_background.jpg"); */
+    background-size: 100%;
+}
+
+.link, .link:visited {
+    color: whitesmoke;
+}
+
+.menu_body {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    border: 1px solid red;
+}
+
+.menu {
+    float: left;
+    border-right: 1px solid red;
+}
+
+.menu a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.menu a:hover, .active {
+    background-color: rgb(75, 75, 75);
+}
+
+.center {
+    left:0;
+    width:74%;
+}
+
+.right {
+    right: 0;
+    width:25%;
+}
+.center, .right {
+    display: inline-block;
+}
+
+.title {
+    padding: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: red;
+    border-color: red;
+}
+
+th, td {
+    border: 1px solid red;
+}
+
+table {
+    width: 95%;
+    background-color: rgb(50, 50, 50);
+}
+
+img {
+    width: 200px;
+    float: center;
+}
+.swot {
+    list-style-type: none;
+    padding-left: 0%;
+}
