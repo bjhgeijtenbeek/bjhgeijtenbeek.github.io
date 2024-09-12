@@ -1,10 +1,15 @@
 body {
-    background-color: black;
+    background-color: #202020;
     color: whitesmoke;
     /* background-image: url("fotos/black-gray_background.jpg"); */
     background-size: 100%;
 }
 
+.title {
+    padding: 40px;
+}
+
+/* menu */
 .link, .link:visited {
     color: whitesmoke;
 }
@@ -13,7 +18,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #101010;
     position: fixed;
     top: 5px;
     right: 5px;
@@ -37,6 +42,7 @@ body {
     background-color: rgb(75, 75, 75);
 }
 
+/* index/ profile */
 .center {
     left:0;
     width:74%;
@@ -50,10 +56,12 @@ body {
     display: inline-block;
 }
 
-.title {
-    padding: 40px;
+img {
+    width: 200px;
+    float: center;
 }
 
+/* dashboard */
 hr {
     height: 1px;
     background-color: red;
@@ -69,10 +77,7 @@ table {
     background-color: rgb(50, 50, 50);
 }
 
-img {
-    width: 200px;
-    float: center;
-}
+/* Blog */
 .swot {
     list-style-type: none;
     padding-left: 0%;
